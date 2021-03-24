@@ -4,8 +4,9 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme": "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-fix-campaign-icons"
 	},
+	"data_from": "international",
 	"scripts": {
 		"site:custom": []
 	},
