@@ -12,5 +12,5 @@ job_environments:
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-test-sinope
     NEWRELIC_APPNAME: P4 test-sinope Development
-    WP_DB_NAME: planet4-testprot_wordpress_develop
+    WP_DB_NAME: planet4-testsino_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-sinope-stateless-develop
