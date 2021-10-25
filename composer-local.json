@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-sinope",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
+		"greenpeace/planet4-master-theme": "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
 	},
 	"scripts": {
@@ -21,30 +21,6 @@
 				"dist": {
 					"type": "zip",
 					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/c9fa7eb07d1f2b84b405e6665efa00871d29b9a4.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/44145f06cd8086a7e892c6f805b8d8f951894386.zip"
 				}
 			}
 		}
